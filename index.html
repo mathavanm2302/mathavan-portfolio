@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathavan M | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="#home" class="logo">Mathavan<span>.</span></a>
+    <button id="menuBtn" aria-label="Toggle menu">☰</button>
+    <ul id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <p class="tag">WELCOME TO MY PORTFOLIO</p>
+    <h1>Hi, I'm <span>Mathavan M</span></h1>
+    <h2 id="role">Aspiring Web Developer</h2>
+    <p>I am a Computer Science and Engineering student passionate about web development, Python and innovative technology.</p>
+    <a class="btn" href="#projects">Explore Projects ↗</a>
+    <a class="btn outline" href="#contact">Contact Me</a>
+  </div>
+
+  <div class="code-card">
+    <p>MY DEVELOPER PROFILE</p>
+    <pre>
+const developer = {
+  name: "Mathavan M",
+  course: "B.E. CSE",
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Python"
+  ],
+  learning: true
+};
+    </pre>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <p class="tag">GET TO KNOW ME</p>
+  <h2>About <span>Me</span></h2>
+  <div class="card">
+    <h3>Who Am I?</h3>
+    <p>I am pursuing B.E. Computer Science and Engineering at Nehru Institute of Engineering and Technology.</p>
+    <p>I enjoy developing websites, learning programming and building practical technology projects.</p>
+    <p><b>Education:</b> B.E. Computer Science and Engineering</p>
+  </div>
+</section>
+
+<section id="skills" class="section dark">
+  <p class="tag">WHAT I KNOW</p>
+  <h2>My <span>Skills</span></h2>
+  <div class="grid">
+    <div class="card"><h3>HTML5</h3><p>Web structure</p></div>
+    <div class="card"><h3>CSS3</h3><p>Responsive design</p></div>
+    <div class="card"><h3>JavaScript</h3><p>Interactive websites</p></div>
+    <div class="card"><h3>Python</h3><p>Programming</p></div>
+    <div class="card"><h3>OpenCV</h3><p>Computer vision</p></div>
+    <div class="card"><h3>Git & GitHub</h3><p>Version control</p></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <p class="tag">MY WORK</p>
+  <h2>Featured <span>Projects</span></h2>
+  <div class="grid">
+    <div class="card project">
+      <div class="project-icon">▦</div>
+      <h3>Image Gallery</h3>
+      <p>A responsive image gallery with interactive navigation.</p>
+      <span>HTML · CSS · JavaScript</span>
+    </div>
+    <div class="card project">
+      <div class="project-icon">✋</div>
+      <h3>TouchLess AI</h3>
+      <p>A hand-gesture-based media controller project.</p>
+      <span>Python · OpenCV · MediaPipe</span>
+    </div>
+    <div class="card project">
+      <div class="project-icon">＋</div>
+      <h3>Calculator App</h3>
+      <p>A web calculator for basic mathematical operations.</p>
+      <span>HTML · CSS · JavaScript</span>
+    </div>
+  </div>
+</section>
+
+<section class="section dark">
+  <p class="tag">MY RESUME</p>
+  <h2>My <span>Profile</span></h2>
+  <p>Download a sample resume and update it with your details.</p>
+  <button class="btn" id="resumeBtn">Download Resume ↓</button>
+</section>
+
+<section id="contact" class="section">
+  <p class="tag">LET'S CONNECT</p>
+  <h2>Contact <span>Me</span></h2>
+
+  <div class="card contact-info">
+    <p><b>Email:</b> mathavanm638583@gmail.com</p>
+    <p><b>GitHub:</b> github.com/mathavanm2302</p>
+  </div>
+
+  <form id="contactForm">
+    <input id="name" placeholder="Your Name" required>
+    <input id="email" type="email" placeholder="Your Email" required>
+    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+    <button class="btn" type="submit">Prepare Email ↗</button>
+    <p id="status">Submitting opens your email application.</p>
+  </form>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> Mathavan M | Portfolio Website</p>
+  <a href="#home">Back to Top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
